@@ -1,27 +1,42 @@
-.menu{
-	top: 0px;
-	border-bottom: 2px solid #9464f4 ;
-	width: 99%;
-	background-color:#whitesmoke ;
-	display: flex;
-	align-content: space-around; 
-	justify-content: center;
-	padding: 0.5rem;
-	
-	flex-wrap: wrap;
+body{
+	margin: 0px;
 }
-
-.imagen{
-	max-width: 2.6%;
-}
-nav img{
+.imagen img{
 	max-width: 100%;
 }
-nav a{
-	text-decoration: none;
+.imagen{
+	max-width: 4.5%;
 }
-.enlaces{
-	margin: auto;
+header{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: whitesmoke;
+}
+.menu{
+display: contents;
+}
+nav form div{
+	display:flex;
+	flex-direction:column;
+
+}
+nav form{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 1rem;
+}
+form button{
+	min-width: 100%;
+}
+.forminput label, input{
+	margin: 2px;
+}
+a{
+	margin-top: 2rem ;
+	text-decoration: none;
+
 }
 .contenido{
 	display: flex;
@@ -32,50 +47,52 @@ nav a{
 .contenido div{
 	width: 25%;
 	display: flex;
+	height:200px ;
 	min-width:300px;
 	flex-direction: column;
-	justify-content: center;
+	
 }
 .contenido p{
 	background-color: black;
 	color: whitesmoke;
 	margin-top: 0px;
+	text-align: center;
 }
 .Dogo img{
-	min-height: 78%;
+	min-height: 91%;
 }
 .SBernardo img{
-	max-height: 78%;
+	max-height: 91%;
 }
 .Mastin img{
-	max-height: 78%;
+	max-height: 91%;
 }
 .Leonberger img{
-	max-height: 78%;
+	max-height: 91%;
 }
 .Bullmastiff img{
-	min-height: 75%;
+	min-height: 91%;
 }
 .TosaInu img{
-	max-height: 75%;
+	max-height: 91%;
 }
 .Terranova img{
-	min-height: 75%;
+	min-height: 91%;
 }
 .PerroLoboC img{
-	min-height: 75%;
+	min-height: 91%;
 }
 .FilaB img{
-	min-height: 75%;
+	min-height: 91%;
 }
 .DogoB img{
-	max-height: 75%;
+	max-height: 91%;
 }
 .DogoT img{
-	max-height: 75%;
+	max-height: 91%;
 } 
 .Komondor img{
-	min-height: 75%;
+	min-height: 91%;
 }
 table{
 	border-collapse: collapse;
@@ -87,4 +104,8 @@ th{
 td,th{
 	border:1px solid black;
 	padding: 0.5 rem;
+}
+table img{
+	max-width: 100%;
+	max-height: 100%;
 }

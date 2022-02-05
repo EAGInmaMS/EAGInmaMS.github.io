@@ -1,0 +1,90 @@
+.menu{
+	top: 0px;
+	border-bottom: 2px solid #9464f4 ;
+	width: 99%;
+	background-color:#whitesmoke ;
+	display: flex;
+	align-content: space-around; 
+	justify-content: center;
+	padding: 0.5rem;
+	
+	flex-wrap: wrap;
+}
+
+.imagen{
+	max-width: 2.6%;
+}
+nav img{
+	max-width: 100%;
+}
+nav a{
+	text-decoration: none;
+}
+.enlaces{
+	margin: auto;
+}
+.contenido{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.contenido div{
+	width: 25%;
+	display: flex;
+	min-width:300px;
+	flex-direction: column;
+	justify-content: center;
+}
+.contenido p{
+	background-color: black;
+	color: whitesmoke;
+	margin-top: 0px;
+}
+.Dogo img{
+	min-height: 78%;
+}
+.SBernardo img{
+	max-height: 78%;
+}
+.Mastin img{
+	max-height: 78%;
+}
+.Leonberger img{
+	max-height: 78%;
+}
+.Bullmastiff img{
+	min-height: 75%;
+}
+.TosaInu img{
+	max-height: 75%;
+}
+.Terranova img{
+	min-height: 75%;
+}
+.PerroLoboC img{
+	min-height: 75%;
+}
+.FilaB img{
+	min-height: 75%;
+}
+.DogoB img{
+	max-height: 75%;
+}
+.DogoT img{
+	max-height: 75%;
+} 
+.Komondor img{
+	min-height: 75%;
+}
+table{
+	border-collapse: collapse;
+}
+th{
+	background-color: black;
+	color: blanchedalmond;
+}
+td,th{
+	border:1px solid black;
+	padding: 0.5 rem;
+}

@@ -174,7 +174,7 @@ summary{
 	cursor: pointer;
 	color: #a37c82;
 }
-details p{
+details p,article p{
 	font-family: 'Montserrat', sans-serif;
 
 }

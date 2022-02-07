@@ -37,6 +37,7 @@ nav form{
 form button{
 	min-width: 100%;
 	font-family: 'Yellowtail', cursive;
+	margin-bottom: 2px;
 }
 .forminput label, input{
 	font-family: 'Yellowtail', cursive;	
@@ -63,8 +64,8 @@ h2{
 .contenido div{
 	width: 25%;
 	display: flex;
-	height:200px ;
-	min-width:300px;
+	margin-bottom: 0px;
+	background-color: black;
 	flex-direction: column;
 	
 }
@@ -73,45 +74,48 @@ h2{
 	color: #a37c82;
 	margin-top: 0px;
 	text-align: center;
-	font-family: 'Yellowtail', cursive;
-	
-	
+	font-family: 'Yellowtail', cursive;	
+	margin-bottom: 0px;
+}
+.contenido img{
+	object-fit: fill;
+	width: 100%;
 }
 .Dogo img{
-	min-height: 91%;
+	height: 90%;
 }
 .SBernardo img{
-	max-height: 91%;
+	height: 90%;
 }
 .Mastin img{
-	max-height: 91%;
+	height: 90%;
 }
 .Leonberger img{
-	max-height: 91%;
+	height: 90%;
 }
 .Bullmastiff img{
-	min-height: 91%;
+	height: 90%;
 }
 .TosaInu img{
-	max-height: 91%;
+	height: 90%;
 }
 .Terranova img{
-	min-height: 91%;
+	height: 90%;
 }
 .PerroLoboC img{
-	min-height: 91%;
+	height: 90%;
 }
 .FilaB img{
-	min-height: 91%;
+	height: 90%;
 }
 .DogoB img{
-	max-height: 91%;
+	height: 90%;
 }
 .DogoT img{
-	max-height: 91%;
+	height: 90%;
 } 
 .Komondor img{
-	min-height: 91%;
+	height: 90%;
 }
 table{
 	border-collapse: collapse;
@@ -140,11 +144,13 @@ table img{
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	object-fit: fill;
+	vertical-align: bottom;
 }
 tr td:last-child{
 	padding: 0px;
 	margin: 0px;
-	vertical-align: ;
+	
 }
 tbody tr:nth-child(2n){
 	background-color: #a37c82;
@@ -176,6 +182,7 @@ summary{
 }
 details p,article p{
 	font-family: 'Montserrat', sans-serif;
+
 
 }
 figcaption{
